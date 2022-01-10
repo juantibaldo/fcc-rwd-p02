@@ -23,6 +23,10 @@ h1 {
     margin: 0 0.5em;
 }
 
+p {
+    margin-top:0;
+    margin-bottom: 5px;
+}
 
 #survey-form {
     display: flex;
@@ -40,8 +44,8 @@ h1 {
 }
 
 input {
-    padding: 8px;
-    margin: 8px 0;
+    padding: 7px;
+    margin: 5px 0 7px 0;
     border: 0;
     border-radius: 50px;
     box-shadow:4px 4px 10px rgba(0,0,0,0.06);
@@ -50,11 +54,12 @@ input {
 select {
     padding: 8px;
     border-radius: 50px;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 #checkboxes {
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0;
 }
 
 .container {
@@ -74,6 +79,8 @@ select {
 /* RADIO BUTTONS */
 
 /* Create a custom radio button */
+
+
 .checkmark-radio {
     position: absolute;
     top: 0;

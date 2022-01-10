@@ -16,15 +16,14 @@
                 <h1 id="title">Test Form</h1>
                 <p id="description">A test form to test things</p>
                 <hr>  
-            </div>
-            
-            <label for="name" id="name-label">Name</label>
+            </div>         
+            <label for="name" id="name-label">Name:</label>
             <input type="text" name="name" id="name" placeholder="Enter your name" required>
-            <label for="email" id="email-label">Email</label>
+            <label for="email" id="email-label">Email:</label>
             <input type="email" name="email" id="email" placeholder="Enter your email adress" required>
-            <label for="number" id="number-label">Zip Code</label>
+            <label for="number" id="number-label">Zip Code:</label>
             <input type="number" name="number" id="number" min="1" max="99999" placeholder="Enter your Zip code" required>
-            <label for="dropdown">Choose your age group</label>
+            <label for="dropdown">Choose your age group:</label>
             <select name="dropdown" id="dropdown">
                 <option value="choose">Choose</option>
                 <option value="1">1</option>
@@ -32,15 +31,17 @@
                 <option value="3">3</option>
             </select>
             <div id="sex-radio">
-                <p>Choose gender</p>
-                <label class="container">Male
-                    <input type="radio" checked="checked" name="radio">
-                    <span class="checkmark-radio"></span>
-                  </label>
-                  <label class="container">Female
-                    <input type="radio" name="radio">
-                    <span class="checkmark-radio"></span>
-                  </label>
+                <p>Choose gender:</p>
+                <div id="radios">
+                    <label class="container">Male
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark-radio"></span>
+                      </label>
+                      <label class="container">Female
+                        <input type="radio" name="radio">
+                        <span class="checkmark-radio"></span>
+                      </label>
+                </div>
             </div>
             <section id="checkboxes"> 
                 <p>Extras:</p>               
