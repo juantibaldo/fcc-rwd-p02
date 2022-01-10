@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form action="" id="survey-form">
+            <div id="presentation">
+                <h1 id="title">Test Form</h1>
+                <p id="description">A test form to test things</p>
+                <hr>  
+            </div>
+            
+            <label for="name" id="name-label">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            <label for="email" id="email-label">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email adress" required>
+            <label for="number" id="number-label">Zip Code</label>
+            <input type="number" name="number" id="number" min="1" max="99999" placeholder="Enter your Zip code" required>
+            <label for="dropdown">Choose your age group</label>
+            <select name="dropdown" id="dropdown">
+                <option value="choose">Choose</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <div id="sex-radio">
+                <p>Choose gender</p>
+                <label for="male">Male</label>
+                <input type="radio" name="sex" value="male" id="male">
+                <span></span>
+                <label for="female">Female</label>
+                <input type="radio" name="sex" value="female" id="female">
+                <span></span>
+            </div>
+            <div id="checkboxes">
+                <p>Do you want to receive any of our free publications?</p>
+                <label for="newsletter">Daily newsletter</label>
+                <input type="checkbox" value="newsletter" name="newsletter" id="newsletter">
+                <label for="gift">Weekly gifts</label>
+                <input type="checkbox" value="gift" name="gift" id="gift">
+                <label for="survey">Monthly survey</label>
+                <input type="checkbox" value="survey" name="survey" id="survey">
+            </div>
+            <div id="comments">
+                <p>Let us know:</p>
+                <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+            </div>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </main>
+</body>
+
+<link rel="stylesheet" href="style.css">
+</html>

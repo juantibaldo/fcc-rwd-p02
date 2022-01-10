@@ -1,0 +1,79 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    
+}
+
+body {
+    /*background: url("https://images.unsplash.com/photo-1587560699334-cc4ff634909a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");*/
+
+    background: url("https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+}
+
+#presentation {
+    text-align: center;    
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0 1em 0 1em;
+}
+
+#description {
+    font-size: 1.2em;
+    margin: 0 0.5em;
+}
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px 70px;
+    background: rgba(97, 97, 97, 0.192);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+}
+
+input {
+    padding: 8px;
+    margin: 8px 0;
+    border: 0;
+    border-radius: 50px;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+}
+
+select {
+    padding: 8px;
+    border-radius: 50px;
+    margin: 10px 0;
+}
+
+input[type=submit] {
+    padding: 8px;
+    font-weight: 600;
+    cursor: pointer;
+   
+}
+
+
+
+
+
+
+
+
+
+#textarea {
+    width:100%;
+    resize: vertical;
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    height:80px;
+}
+
